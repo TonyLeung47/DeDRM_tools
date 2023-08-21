@@ -12,7 +12,7 @@ import sys
 import hmac
 from struct import pack
 import hashlib
-import aescbc
+from . import aescbc
 
 class Pukall_Cipher(object):
     def __init__(self):
